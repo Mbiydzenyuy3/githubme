@@ -6,37 +6,53 @@ export default function Home() {
     <div className='min-h-screen bg-zinc-50 dark:bg-zinc-950'>
       {/* Hero Section */}
       <header className='max-w-4xl mx-auto px-6 py-20'>
-        <div className='space-y-6'>
-          <div className='inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-sm font-medium'>
-            <span className='w-2 h-2 rounded-full bg-green-500 animate-pulse'></span>
-            Open to Work
+        <div className='flex flex-col md:flex-row items-start md:items-center gap-8'>
+          <div className='flex-1 space-y-6'>
+            <div className='inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-sm font-medium'>
+              <span className='w-2 h-2 rounded-full bg-green-500 animate-pulse'></span>
+              Open to Work
+            </div>
+
+            <h1 className='text-4xl md:text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50'>
+              Full Stack Developer | Building Scalable Web Applications
+            </h1>
+
+            <p className='text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl'>
+              Passionate developer with expertise in building responsive,
+              user-friendly applications. Focused on delivering clean code and
+              exceptional user experiences.
+            </p>
+
+            <div className='flex flex-wrap gap-4'>
+              <a
+                href='mailto:your.email@example.com'
+                className='inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium rounded-full bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900 hover:opacity-90 transition-opacity'
+              >
+                Contact Me
+              </a>
+              <a
+                href='https://github.com/Mbiydzenyuy3'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+              >
+                GitHub Profile
+              </a>
+            </div>
           </div>
 
-          <h1 className='text-4xl md:text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50'>
-            Full Stack Developer | Building Scalable Web Applications
-          </h1>
-
-          <p className='text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl'>
-            Passionate developer with expertise in building responsive,
-            user-friendly applications. Focused on delivering clean code and
-            exceptional user experiences.
-          </p>
-
-          <div className='flex flex-wrap gap-4'>
-            <a
-              href='mailto:your.email@example.com'
-              className='inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium rounded-full bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900 hover:opacity-90 transition-opacity'
-            >
-              Contact Me
-            </a>
-            <a
-              href='https://github.com/yourusername'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
-            >
-              GitHub Profile
-            </a>
+          {/* Profile Image */}
+          <div className='relative w-40 h-40 md:w-48 md:h-48 flex-shrink-0'>
+            <div className='w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-zinc-800 shadow-lg'>
+              <Image
+                src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face'
+                alt='Profile picture of a female developer'
+                width={192}
+                height={192}
+                className='w-full h-full object-cover'
+                priority
+              />
+            </div>
           </div>
         </div>
       </header>
@@ -288,7 +304,7 @@ export default function Home() {
             </a>
             <div className='flex gap-4 pt-2'>
               <a
-                href='https://github.com/yourusername'
+                href='https://github.com/Mbiydzenyuy3'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50'
