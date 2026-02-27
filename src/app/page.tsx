@@ -19,8 +19,8 @@ export default function Home() {
 
             <p className='text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl'>
               Passionate developer with expertise in building responsive,
-              user-friendly applications. Focused on delivering clean code and
-              exceptional user experiences.
+              user-friendly applications. Focused on delivering real world
+              solutions and exceptional user experiences products.
             </p>
 
             <div className='flex flex-wrap gap-4'>
@@ -300,33 +300,33 @@ export default function Home() {
               href='mailto:your.email@example.com'
               className='text-zinc-900 dark:text-zinc-50 hover:underline font-medium'
             >
-              your.email@example.com
+              mbiydzenyuyeileen@gmail.com
             </a>
             <div className='flex gap-4 pt-2'>
               <a
                 href='https://github.com/Mbiydzenyuy3'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50'
+                className='text-sm bg-purple-950 hover:bg-purple-800 dark:text-white hover:text-white dark:hover:text-zinc-50 px-3 py-1 rounded-full'
               >
                 GitHub
               </a>
               <a
-                href='https://linkedin.com/in/yourusername'
+                href='https://www.linkedin.com/in/eileen-leila/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50'
+                className='text-sm bg-blue-600 hover:bg-blue-500 dark:text-white-400 hover:text-zinc-900 dark:hover:text-zinc-50 px-3 py-1 rounded-full'
               >
                 LinkedIn
               </a>
-              <a
+              {/* <a
                 href='https://twitter.com/yourusername'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50'
               >
                 Twitter
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -335,7 +335,7 @@ export default function Home() {
       {/* Footer */}
       <footer className='max-w-4xl mx-auto px-6 py-8 border-t border-zinc-200 dark:border-zinc-800'>
         <p className='text-sm text-zinc-500 dark:text-zinc-400 text-center'>
-          © {new Date().getFullYear()} Your Name. Built with Next.js and
+          © {new Date().getFullYear()} Eileen Leila. Built with Next.js and
           Tailwind CSS.
         </p>
       </footer>
